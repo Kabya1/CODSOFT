@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kabyashree's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="#skillsection">Skills</a></li>
+                    <li><a href="#Proj">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="firstsec">
+            <div class="leftsec">
+                Hi! I am <span class="purple">Kabyashree.</span> <br>I'm an aspiring <div>Web Developer</div>
+                <span id="element"></span>
+                <p id="description"><br>Welcome to my Web Developer Portfolio. I'm totally a newbie with a passion for
+                    creating beautiful websites. Currently i'm in my learning stage so this is what i've tried to create
+                    for now. Well wish me luck and check my website :)</p>
+                <button class="btn"> Resume</button>
+            </div>
+
+            <div class="rightsec">
+                <img src="k2.jpeg" alt="Oops! can't load image">
+            </div>
+        </section>
+
+        <hr id="skillsection">
+
+        <section class="secondsection">
+            <span class="text-grey">What i have learned so far</span>
+            <div class="skill">
+                <h1>My Skills</h1>
+
+                <li>
+                    <h3>HTML</h3>
+                    <span class="bar"><span class="html"></span></span>
+                </li>
+
+                <li>
+                    <h3>CSS</h3>
+                    <span class="bar"><span class="css"></span></span>
+                </li>
+
+                <li>
+                    <h3>PHP</h3>
+                    <span class="bar"><span class="php"></span></span>
+                </li>
+
+                <li>
+                    <h3>JAVASCRIPT</h3>
+                    <span class="bar"><span class="js"></span></span>
+                </li>
+
+
+            </div>
+        </section>
+
+        <hr id="Proj">
+
+        <h1 class="text-grey">Projects</h1>
+        <div class="cover">
+            <div class="box">
+                <img src="proj5.png" width="400px" height="200px">
+                <h2>ENERGY AUDIT</h2>
+                <h4>(under APDCL)</h4>
+                <p class="text-grey"><br><i>The "Energy Audit" is fully computerized system that not only gives an easy
+                        access to the system but also save a lot of time thereby providing fast and secure results.
+                        The objective of developing this system is to have a computerized process of maintaining details
+                        of circle, division, subdivision, substation, feeder and calculating
+                        the number of energy loss connected to each feeder with total load.</i><br> </p>
+            </div>
+
+            <div class="box1">
+                <img src="webdev 2.png" width="400px" height="200px">
+                <h2>Dummy Website Design Practice 1</h2>
+                <p class="text-grey"><br><br><i>This is just a practice website that i'm currently building. It is a
+                        E-commerce wedsite for Premium scented candles.</i> </p>
+            </div>
+
+            <div class="box2">
+                <img src="webdev 1.png" width="400px" height="200px">
+                <h2>Dummy Website Design Practice 2</h2>
+                <p class="text-grey"><br><br><i>This is my first website that i build with pure html and css which i
+                        learned from a webdev bootcamp under ShapeAI. </i></p>
+            </div>
+        </div> <br>
+
+        <hr>
+        <div id="resume">
+            <h3>Resume</h3>
+            <div class="resume-container">
+                <div class="container-left">
+                    <iframe src="cv.pdf" width="100%" height="650px"></iframe>
+                </div>
+                <div class="container-right">
+                    <p><b>Kabyashree's CV</b><br>
+                        Click here to download the CV</p>
+                    <a href="cv.pdf" download="Kabyashree Resume"><button>Download</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['and a Web Designer', 'a Digital Marketer', 'and a Content Ideator.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
